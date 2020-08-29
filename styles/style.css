@@ -2,6 +2,7 @@
   --color-primary: #343353;
   --color-secondary: #ff4c60;
   --color-terciary: #ffd15c;
+  --color-blue: #6c6ce5;
 }
 
 
@@ -152,7 +153,7 @@ h1{
   width: 150px;
   border-radius: 20px;
   color: white;
-  background-color: #ff4c60;
+  background-color: var(--color-secondary);
   border: none;  
 }
 .section__home__button__text{
@@ -205,7 +206,7 @@ h1{
   margin-bottom: 18px;
 }
 .aboutme__container_card{
-  height: 220px;
+  height: 250px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -274,6 +275,9 @@ h1{
   position: absolute;
   border-radius: 10px;  
 }
+.aboutme__container_card--mobile{
+  display: none;
+}
 
 
 
@@ -298,10 +302,12 @@ h1{
     padding: 30px;    
     margin: 15px;
     border-radius: 10px;
-    background-color: #6c6ce5;
-    box-shadow: 0px 5px 20px 0px #6c6ce5;
+    background-color: var(--color-blue);
+    box-shadow: 0px 5px 20px 0px var(--color-blue);
     color: #f9f9ff;
-
+}
+.container__servicios--html:hover{
+  box-shadow: 0px 10px 15px 5px #6c6ce5;
 }
 .container__servicios--css{
     display: flex;
@@ -311,11 +317,14 @@ h1{
     padding: 30px;    
     margin: 15px;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px 0px #ffd15c;
-    background-color: #ffd15c;
-    color: #5e5c7f;
-    
+    box-shadow: 0px 5px 20px 0px var(--color-terciary);
+    background-color: var(--color-terciary);
+    color: #5e5c7f;    
 }
+.container__servicios--css:hover{
+  box-shadow: 0px 10px 15px 5px #ffd15c;
+}
+
 .container__servicios--uxui{
     display: flex;
     flex-direction: column;
@@ -326,8 +335,10 @@ h1{
     border-radius: 10px;
     box-shadow: 0px 5px 20px 0px #f97b8b;
     background-color: #f97b8b;
-    color: #f9f9ff;
-    
+    color: #f9f9ff;    
+}
+.container__servicios--uxui:hover{
+  box-shadow: 0px 10px 15px 5px #f97b8b;
 }
 
 /*EXPERIENCE*/
@@ -379,7 +390,7 @@ h1{
 
 /* WORKS */
 .works-container{
-  height: 700px;
+  height: 850px;
   margin: 0 70px;
 }
 
@@ -524,8 +535,7 @@ h1{
 /* RESPONSIVE */
 @media (max-width: 1000px) {
   .container {
-    max-width: initial;
-    width: 100%;
+    max-width: initial;    
   }
 
   .navbar-container__desktop {
@@ -570,5 +580,119 @@ h1{
   margin: 15px;
   font-size: 25px;
 }
+
+/*About Me*/
+.aboutme__container{
+  height: 2100px;
+}
+.aboutme__container__avatar{
+  margin-bottom: 15px;
+}
+.aboutme__container__skills{    
+  
+  flex-direction: column;  
+}
+.aboutme__container_card{
+  display: none;
+}
+
+.aboutme__container_card--mobile:hover{
+  box-shadow: 0px 15px 20px 0px rgba(69, 67, 96, 0.1);  
+}
+.aboutme__container_card--mobile{
+  width: 100%;
+  margin-left: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(69, 67, 96, 0.1);  
+  line-height: 35px;
+  padding: 15px 0 0 15px;
+  height: 400px;  
+  display: flex;
+  flex-direction: column;  
+  margin: 0;
+  padding: 20px;
+
+}
+.aboutme__container__text{
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+.container__barra_skils{
+  text-align: center;
+}
+.container__button__contactame_mobile{
+  align-self: center;
+  margin-top: 25px;
+}
+
+
+/* Servicios*/
+..experience-container{
+  height: 1000px;
+}
+.container__servicios{
+  flex-direction: column;
+}
+
+/*Experiencia*/
+.experience-container{
+  height: 1350px;
+}
+.experience-container__topics{
+  flex-direction: column;
+}
+.experience-container__topics__card{
+  margin-right: 0;
+}
+.experience-container__topics__card__data > .fas{
+  color: #ff4c60;
+  margin-top: 0;
+  left: -30px;
+  top: -7px;
+  
+}
+/*Mis Trabajos*/
+.works-container{
+  height: 1700px;
+}
+
+/*Formulario*/
+.contact__form{
+  height: 500px;
+}
+.contact__form__container{
+  flex-direction: column;
+  align-items: center;
+}
+.contact__form__container__text{
+  width: 100%;
+}
+
+.contact__form__container__form{
+  width: 100%;
+}
+.contact__form__container__inputname{
+  width: 100%;
+}
+.contact__form__container__inputemail{
+  width: 100%;
+}
+.contact__form__container__textarea{
+  width: 100%;
+}
+.footer__container{
+  margin-top: 25px;
+}
+
+/*works html*/
+.works-container--fullpage{
+  height: 2500px;
+}
+.works-container__card__job--image{
+  margin-bottom: 15px;
+}
+
 
 }
