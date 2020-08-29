@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
+
+</head>
+<body>
+  <div class="main-container">
+    <section class="navbar-container__desktop">
+      <h1>Jesús Rodriguez</h1>
+      <nav class="navbar-desktop">
+          <a class="navbar__items" href="index.html"><img class="icons-navbar_icons" src="icons/home.svg" alt="home">Home</a>
+          <a class="navbar__items" href="#skils"><img class="icons-navbar_icons" src="icons/person.svg" alt="Sobre Mi"> Sobre Mí</a> 
+          <a class="navbar__items" href="#services"><img class="icons-navbar_icons" src="icons/servicios.svg" alt="Servicios"> Servicios</a>
+          <a class="navbar__items" href="#experience"><img class="icons-navbar_icons" src="icons/experiencia.svg" alt="Experiencia"> Experiencia</a>
+          <a class="navbar__items" href="#works"><img class="icons-navbar_icons" src="icons/trabajos.svg" alt="Mis Trabajos">Mis Trabajos</a>
+          <a class="navbar__items" href="#contact"><img class="icons-navbar_icons" src="icons/contact.svg" alt="Contactame"> Contactame</a>                              
+        </ul>
+      </nav>
+    </section>
+    <div class="full-container">
+      <section class="navbar-container__mobile">
+        <nav class="navbar-container__mobile__list">
+          <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input" />
+            <div class="navbar-open">
+              <i class="fas fa-bars">dasdawd</i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times">dasdasd</i>
+            </div>
+            <div class="navbar-contet">
+              <a href="index.html">Home</a>
+            </div>
+          </label>
+        </nav>
+      </section>      
+      <section class="banner-container" id="home">        
+        <div class="background-image"></div>
+        <div class="section__home__container">          
+          <img class="section__home__avatar" src="imagenes/avatar.svg" alt="avatar">
+          <h2>Jesús Rodriguez</h2>
+            <span>Front Developer</span>                              
+            <div class="section__home__redes">
+              <a href="https://www.linkedin.com/in/jrodriguez92/" target="blank"><img class="section__home__redes__images" src="icons/linkedin.svg" alt="Linkedin"></a>            
+              <a href="https://www.instagram.com/jrcommunitymanager/" target="blank"><img class="section__home__redes__images" src="icons/instagram.svg" alt="Instagram"></a>          
+            </div>
+            <button class="section__home__button__contactame"><a class="section__home__button__text" href="#contactame">Contactame</a></button>
+        </div>
+        <a class="banner-container__scroll" href="#skils">
+          <img class="section-scroll" src="imagenes/scroll.png" alt=""> <span> Scroll Down</span>
+        </a>
+      </section>
+      <section class="aboutme__container" id="skils">
+        <h3 class="aboutme__title">Sobre Mí</h3>
+        <div class="aboutme__container__skills">
+          <div class="aboutme__container__avatar">
+          <img class="aboutme__avatar" src="imagenes/avatar.svg" alt="avatar">
+          </div>
+          <div class="aboutme__container_card">
+            <div class="aboutme__container__text">
+              <span class="aboutme__container__text--span">Hola! Soy desarrolladora Frontend. Actualmente trabajo en MercadoLibre, y doy clases de HTML y CSS en RocketCode</span>            
+              <button class="section__home__button__contactame"><a class="section__home__button__text" href="https://www.linkedin.com/in/jrodriguez92/" target="blank">Ver Curriculum</a></button>
+            </div>
+            <div class="container__barra_skils">
+              <div class="aboutme__barra__skils">
+                <h3 class="aboutme__skils">HTML</h3>
+                <div class="aboutme__barra__progreso__html--back"></div>
+                <div class="aboutme__barra__progreso__html"></div>                
+              </div>              
+              <div class="aboutme__barra__skils">
+                <h3 class="aboutme__skils">CSS</h3>
+                <div class="aboutme__barra__progreso__css--back"></div>
+                <div class="aboutme__barra__progreso__css"></div>                
+              </div>              
+              <div class="aboutme__barra__skils">
+                <h3 class="aboutme__skils">SEM</h3>
+                <div class="aboutme__barra__progreso__sem--back"></div>
+                <div class="aboutme__barra__progreso__sem"></div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="title-services" id="services">Servicios</h3>
+        <div class="container__servicios">
+          <div class="container__servicios--html">
+            <img src="imagenes/dev.svg" alt="Servicios HTML">
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, quibusdam iusto. Rerum culpa</p>            
+          </div>
+          <div class="container__servicios--css">
+            <img src="imagenes/html.svg" alt="servicios CSS">            
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, quibusdam iusto. Rerum culpa</p>            
+          </div>
+          <div class="container__servicios--uxui">
+            <img src="imagenes/ux.svg" alt="Servucuis UX/UI">
+            <h3>UX/UI</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, quibusdam iusto. Rerum culpa</p>            
+          </div>
+        </div>
+      </section>
+      <section class="experience-container container" id="experience">
+        <h3 class="title-content">Experiencia</h3>
+        <div class="experience-container__topics">
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2019 - Actualidad</span>
+              <h4 class="title__experience">Academy</h4>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2019 - Actualidad</span>
+              <h4 class="title__experience">Academy</h4>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2019 - Actualidad</span>
+              <h4 class="title__experience">Academy</h4>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>            
+          </div>          
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2019 - Actualidad</span>
+              <h4 class="title__experience">Academy</h4>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2019 - Actualidad</span>
+              <h4 class="title__experience">Academy</h4>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="experience-container__topics__card__data__time">2019 - Actualidad</span>
+              <h4 class="title__experience">Academy</h4>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <section class="works-container container" id="works">
+        <h3 class="title-content">Mis trabajos</h3>
+        <div class="works__container">          
+          <div class="works-container__card__job--image">
+            <img class="works-container__topics__work__imagenes" src="imagenes/trabajo-1.svg" alt="Magic Photo">
+            <div class="works-container__card__job--text">
+            <span>Magic Photo</span>
+            </div>
+          </div>
+          <div class="works-container__card__job--image">
+            <img class="works-container__topics__work__imagenes" src="imagenes/trabajo-2.svg" alt="Mobile First">
+            <div class="works-container__card__job--text">
+            <span>Mobile First</span>
+            </div>
+          </div>
+          <div class="works-container__card__job--image">
+            <img class="works-container__topics__work__imagenes" src="imagenes/trabajo-3.svg" alt="YouTube">
+            <div class="works-container__card__job--text">
+            <span>YouTube</span>
+            </div>
+          </div>
+          <div class="works-container__card__job--image">
+            <img class="works-container__topics__work__imagenes" src="imagenes/trabajo-4.svg" alt="Falabella">
+            <div class="works-container__card__job--text">
+            <span>Falabella</span>
+            </div>
+          </div>
+          <div class="works-container__card__job--image">
+            <img class="works-container__topics__work__imagenes" src="imagenes/trabajo-5.svg" alt="Road Map">
+            <div class="works-container__card__job--text">
+            <span>Road Map</span>
+            </div>
+          </div>
+          <div class="works-container__card__job--image">
+            <img class="works-container__topics__work__imagenes" src="imagenes/trabajo-6.svg" alt="Happy Computer">
+            <div class="works-container__card__job--text">
+            <span>Happy Computer</span>
+            </div>            
+          </div>          
+        </div>  
+        <div class="works-container__contacto">
+        <button class="section__home__button__contactame"><a class="section__home__button__text" href="words.html">Ver Todos</a></button>      
+        </div>
+      </section>
+      <section class="contact__form" id="contactame">
+        <h3 class="title__contact">Contactame</h3>
+        <div class="contact__form__container">
+          <div class="contact__form__container__text">
+            <span class="contact__form__container__text--tittle">Enviame un Mensaje!</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae laboriosam veritatis vero sint fuga aperiam sit accusamus dolorum rem eaque ipsa eum est praesentium dicta neque ut non aspernatur?</p>
+          </div>
+          <div class="contact__form__container__form">
+            <form action="">
+              <label for="name" >
+                <input type="text" id="name" placeholder="Nombre" class="contact__form__container__inputname">
+              </label>
+              <label for="email">
+                <input type="text" id="email" placeholder="Email" class="contact__form__container__inputemail">
+              </label>
+              <label for="mensaje">
+                <textarea id="mensaje" placeholder="Tu Mensaje" class="contact__form__container__textarea"></textarea>
+              </label>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>  
+        </div>
+
+          
+        
+      </section>
+    </div>
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+</html>
