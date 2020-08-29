@@ -180,7 +180,7 @@ h1{
   width: 100%;  
 }
 
-.aboutme__container__skills{  
+.aboutme__container__skills{    
   color:  #343353;
   display: flex;
   flex-direction: row;
@@ -595,25 +595,23 @@ h1{
 .aboutme__container_card{
   display: none;
 }
+.aboutme__container_card--mobile{
+  width: 100%;     
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(69, 67, 96, 0.1);  
+  line-height: 35px;  
+  height: 430px;  
+  display: flex;
+  flex-direction: column;  
+  margin: 0 0 15px 0;
+  padding: 20px;
+}
 
 .aboutme__container_card--mobile:hover{
   box-shadow: 0px 15px 20px 0px rgba(69, 67, 96, 0.1);  
 }
-.aboutme__container_card--mobile{
-  width: 100%;
-  margin-left: 15px;
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 5px 10px 0px rgba(69, 67, 96, 0.1);  
-  line-height: 35px;
-  padding: 15px 0 0 15px;
-  height: 400px;  
-  display: flex;
-  flex-direction: column;  
-  margin: 0;
-  padding: 20px;
 
-}
 .aboutme__container__text{
   text-align: center;
   width: 100%;
@@ -624,7 +622,7 @@ h1{
 }
 .container__button__contactame_mobile{
   align-self: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 
@@ -650,17 +648,20 @@ h1{
   color: #ff4c60;
   margin-top: 0;
   left: -30px;
-  top: -7px;
-  
+  top: -7px;  
+}
+.title-services{
+  margin-top: 50px;
 }
 /*Mis Trabajos*/
 .works-container{
   height: 1700px;
+  margin-bottom: 50px;
 }
 
 /*Formulario*/
-.contact__form{
-  height: 500px;
+.contact__form{  
+  height: 550px;
 }
 .contact__form__container{
   flex-direction: column;
@@ -689,6 +690,7 @@ h1{
 /*works html*/
 .works-container--fullpage{
   height: 2500px;
+
 }
 .works-container__card__job--image{
   margin-bottom: 15px;
