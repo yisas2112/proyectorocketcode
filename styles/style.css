@@ -588,6 +588,7 @@ h1{
 /*About Me*/
 .aboutme__container{
   height: 2100px;
+  margin: 0 50px;
 }
 .aboutme__container__avatar{
   margin-bottom: 15px;
@@ -639,6 +640,7 @@ h1{
 /*Experiencia*/
 .experience-container{
   height: 1500px;
+  margin: 0 50px;
 }
 .experience-container__topics{
   flex-direction: column;
@@ -658,12 +660,13 @@ h1{
 /*Mis Trabajos*/
 .works-container{
   height: 1700px;
+  margin: 0 30px 50px 30px;
   margin-bottom: 50px;
 }
 
 /*Formulario*/
 .contact__form{  
-  height: 550px;
+  height: 600px;
 }
 .contact__form__container{
   flex-direction: column;
