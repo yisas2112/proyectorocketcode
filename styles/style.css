@@ -581,6 +581,11 @@ h1{
   font-size: 25px;
 }
 
+/*Nabvar*/
+.banner-container__scroll{
+  display: none;
+}
+
 /*About Me*/
 .aboutme__container{
   height: 2100px;
