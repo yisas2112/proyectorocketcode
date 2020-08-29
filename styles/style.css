@@ -336,7 +336,7 @@ h1{
   font-size: 25px;
 }
 .experience-container{
-  height: 100vh;
+  height: 800px;
   margin: 0 70px;
   color: #343353;
 }
@@ -378,7 +378,7 @@ h1{
 
 /* WORKS */
 .works-container{
-  height: 100vh;
+  height: 700px;
   margin: 0 70px;
 }
 
@@ -461,7 +461,7 @@ h1{
   border: none;
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
   font-size: 15px;
-  margin: 5px;
+  margin: 7px;
   padding-left: 6px;
 }
 .contact__form__container__inputemail{
@@ -471,7 +471,7 @@ h1{
   border: none;
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
   font-size: 15px;
-  margin: 5px;
+  margin: 10px;
   padding-left: 6px; 
 }
 .contact__form__container__textarea{
@@ -481,9 +481,10 @@ h1{
   border: none;
   box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
   font-size: 15px;
-  margin: 5px;
+  margin: 10px;
   padding-left: 6px;  
   padding-top: 6px;
+  margin-bottom: 15px;
 }
 
 
