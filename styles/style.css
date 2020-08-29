@@ -631,16 +631,14 @@ h1{
 
 
 /* Servicios*/
-..experience-container{
-  height: 1000px;
-}
+
 .container__servicios{
   flex-direction: column;
 }
 
 /*Experiencia*/
 .experience-container{
-  height: 1350px;
+  height: 1500px;
 }
 .experience-container__topics{
   flex-direction: column;
