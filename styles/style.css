@@ -27,6 +27,7 @@ h2{
 }
 
 
+
 /* ESTILOS GENERALES */
 * {
   box-sizing: border-box;
@@ -209,6 +210,7 @@ h2{
 
 .aboutme__container__text--span{
   margin-bottom: 18px;
+  font-size: 16px;
 }
 .aboutme__container_card{
   height: 250px;
