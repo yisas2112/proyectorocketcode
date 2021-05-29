@@ -10,6 +10,7 @@ body{
   font-family: 'Oswald', sans-serif;
   color: #f9f9ff;
   margin: 0;
+  font-size: 16px
 
 
 
@@ -19,6 +20,10 @@ h1{
   font-size: 28px;
   padding-top: 60px;
   padding-bottom: 103px;
+}
+
+h2{
+  font-size: 38px;
 }
 
 
