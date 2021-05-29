@@ -165,7 +165,7 @@ h1{
 /* SKILS */
 .aboutme__container{  
   color:  #343353;
-  height: 150%;  
+  height: 100%;  
   padding: 60px 20px;
   margin: 0 70px;
   box-sizing: border-box;
@@ -286,7 +286,7 @@ h1{
 
 .title-services{
   font-size: 25px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 25px;
 }
 .container__servicios{
@@ -347,7 +347,7 @@ h1{
   font-size: 25px;
 }
 .experience-container{
-  height: 800px;
+  height: 700px;
   margin: 0 70px;
   color: #343353;
 }
@@ -390,7 +390,7 @@ h1{
 
 /* WORKS */
 .works-container{
-  height: 850px;
+  height: 700px;
   margin: 0 70px;
 }
 
@@ -406,7 +406,7 @@ h1{
 
 }
 .works-container__topics__work__imagenes{
-  width: 250px;
+  width: 100%;
   height: 250px;      
 }
 .works-container__card__job--image{
@@ -461,7 +461,7 @@ h1{
 .contact__form{
   margin: 0 70px;
   color: #343353;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .title__contact{
   font-size: 25px;  
@@ -532,8 +532,8 @@ h1{
   margin-right: 15px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 1000px) {
+/* RESPONSIVE Tablet */
+@media (max-width: 992px) {
   .container {
     max-width: initial;    
   }
@@ -587,8 +587,9 @@ h1{
 
 /*About Me*/
 .aboutme__container{
-  height: 2100px;
+  height: 1800px;
   margin: 0 50px;
+  padding-top: 30px;
 }
 .aboutme__container__avatar{
   margin-bottom: 15px;
@@ -639,7 +640,7 @@ h1{
 
 /*Experiencia*/
 .experience-container{
-  height: 1500px;
+  height: 1100px;
   margin: 0 50px;
 }
 .experience-container__topics{
@@ -659,7 +660,7 @@ h1{
 }
 /*Mis Trabajos*/
 .works-container{
-  height: 1700px;
+  height: 1000px;
   margin: 0 30px 50px 30px;
   margin-bottom: 50px;
 }
@@ -699,7 +700,29 @@ h1{
 }
 .works-container__card__job--image{
   margin-bottom: 15px;
+  width: 100%;
+}
+.works-container__card__job--text{
+  width: 100%;
+  height: 100%;
 }
 
+}
+
+/* RESPONSIVE Tablet */
+@media (max-width: 600px) {
+  .aboutme__container{
+    height: 2100px;
+  }
+  .experience-container{
+    height: 1500px;
+
+  }
+  .experience-container__topics__card{
+    margin-bottom: 20px;
+  }
+  .works-container{
+    height: 1750px;
+  }
 
 }
